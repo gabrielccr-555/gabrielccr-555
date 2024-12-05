@@ -11,17 +11,20 @@ body {
 
 /* CSS da intro */
 .button-img-logo {
+    position: absolute;
     display: inline-block;  
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
     transition: transform 0.3s ease;
 }
-
 .button-img-logo img {
     max-width: 40px;   
-    height: auto;    
+    height: auto; 
 }
-
 .button-img-logo:hover {
-    transform: scale(1.1);  /* Aumenta a imagem um pouco ao passar o mouse */
+    transform: scale(1.1);  
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .intro {
