@@ -1,12 +1,26 @@
 /* CSS Geral */
 body {
     margin: 0;
-    background-color: #DED8CB;
+    background-color: #998E8C;
 }
 
 .limitador {
     max-width: 1000px;
     margin: 0px auto;
+}
+
+::-webkit-scrollbar {
+    width: 16px; 
+    background-color: #B4A9A6; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #D0C4C1;
+    border-radius: 10px;
+    border: 3px solid #B4A9A6;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #EDE0DC;
 }
 
 /* Fontes */
