@@ -54,7 +54,22 @@ font-style: normal;
 }
 
 .nome {
+    display: flex;
+    flex-direction: column;
     font-size: 4rem;
+    gap: 5px;
+}
+.linha {
+    display: flex;
+    gap: 5px;
+}
+.linha span {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.linha span:hover {
+    transform: translateY(-10px) rotate(5deg);
+    color: #C2AA55;
 }
 
 .button-intro {
@@ -74,20 +89,65 @@ font-style: normal;
 .button-intro:hover {
     background-color: #C2AA55;
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 /* about */
 .about {
     margin-top: 20px;
     position: relative;
-    background-color: #FF6A3B;
+    background-color: #C2AA55;
     padding: 80px 50px;
     border-radius: 40px;
 }
-
+.about-conteudo {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.about-conteudo li {
+    padding-bottom: 10px;
+}
+.about-conteudo p {
+    font-weight: 700;
+    font-size: 150%;
+    padding-bottom: 10px;
+}
+.about-conteudo h2 {
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+.me {
+    display: inline-block;
+    color: #FF6A3B;
+}
 
 .foto {
     max-width: 100%;
-    border: 5px solid #C2AA55;
+    border: 3px solid #FF6A3B;
     border-radius: 15px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button-img-about {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: transform 0.4s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset;
+}
+.button-img-about img {
+    max-width: 50px;   
+    height: auto; 
+}
+.button-img-about:hover {
+    transform: scale(0.95);
+    
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
 }
