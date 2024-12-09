@@ -76,20 +76,18 @@ font-style: normal;
     transform: scale(1.05);
 }
 
-/* .button-solicitar {
-    text-decoration: none;
-    color: #000;
-    background-color: #DAA14C;
-    border-radius: 15px;
-    padding: 7px 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    cursor: pointer;
-    transition: all 0.4s ease;
+/* about */
+.about {
+    margin-top: 20px;
+    position: relative;
+    background-color: #FF6A3B;
+    padding: 80px 50px;
+    border-radius: 40px;
 }
-.button-solicitar:hover {
-    background-color: #F8BB63;
-    transform: scale(1.05);
-} */
+
+
+.foto {
+    max-width: 100%;
+    border: 5px solid #C2AA55;
+    border-radius: 15px;
+}
