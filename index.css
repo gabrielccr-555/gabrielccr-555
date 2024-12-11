@@ -165,7 +165,7 @@ font-size: 16px;
     font-size: 3rem;
     padding-bottom: 10px;
 }
-.me {
+.orange {
     display: inline-block;
     color: #FF6A3B;
 }
@@ -199,4 +199,16 @@ font-size: 16px;
     display: flex;
     justify-content: flex-end;
     gap: 15px;
+}
+
+/* skills */
+.skills {
+    margin-top: 0 auto;
+    position: relative;
+    padding: 80px 50px;
+}
+.skills h2 {
+    padding: 10px;
+    font-size: 4rem;
+    text-align: center;
 }
