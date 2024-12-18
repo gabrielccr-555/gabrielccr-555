@@ -2,6 +2,7 @@
 body {
     margin: 0;
     background-color: #998E8C;
+    color: #1E1E1E;
 }
 
 .limitador {
@@ -21,6 +22,10 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
     background-color: #EDE0DC;
+}
+
+.justificar {
+    text-align: justify;
 }
 
 /* Fontes */
@@ -123,6 +128,7 @@ font-size: 16px;
 
 .button-intro {
     margin-right: 10px;
+    margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
     color: #000000;
@@ -202,13 +208,43 @@ font-size: 16px;
 }
 
 /* skills */
-.skills {
+.skills-soft {
     margin-top: 0 auto;
     position: relative;
-    padding: 80px 50px;
+    padding: 50px 50px;
 }
-.skills h2 {
+.skills-soft h2 {
     padding: 10px;
     font-size: 4rem;
+    text-align: center;
+}
+.skills-soft h3 {
+    text-align: center;
+}
+
+.soft-cell h4 {
+    text-align: center;
+}
+
+.espaçamento-icone-lar {
+    margin-right: 2px;
+}
+
+.soft-cell-unica {
+    background-color: #c2aa558c;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    min-height: 55%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+.skills-hard {
+    margin-top: 0 auto;
+    position: relative;
+    padding: 50px 50px;
+}
+.skills-hard h3 {
     text-align: center;
 }
