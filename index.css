@@ -238,13 +238,53 @@ font-size: 16px;
     min-height: 55%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
+.soft-margem {
+    margin-top: 2rem;
+}
 
 
 .skills-hard {
     margin-top: 0 auto;
     position: relative;
-    padding: 50px 50px;
+    padding: 50px 0;
 }
 .skills-hard h3 {
     text-align: center;
+}
+
+.hard-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.hard-icons {
+    font-size: 36px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 200px;
+    text-align: center;
+    background-color: #BA8474;
+    padding: 35px 45px;
+    border-radius: 8px;
+    transition: all .45s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+} 
+.box h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.box:hover{
+    transform: translateY(-8px);
 }
