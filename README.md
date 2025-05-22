@@ -1,6 +1,9 @@
-## Hi there 👋
-🌱 I’m currently learning ...
-😄 Pronouns: He/Him
+## Oi! Me chamo Gabriel 🍊
+
+Sou aluno do 3° semestre do curso de Sistemas de Informação - ESPM.
+
+Conheça um pouco mais sobre mim através do meu [portfólio](https://gabrielccr-555.github.io/gabrielccr-555/) 😄
+
 <!--
 **gabrielccr-555/gabrielccr-555** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
