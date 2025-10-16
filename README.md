@@ -1,6 +1,6 @@
 ## Oi! Me chamo Gabriel 🍊
 
-Sou aluno do 3° semestre do curso de Sistemas de Informação - ESPM.
+Sou aluno do 4° semestre do curso de Sistemas de Informação - ESPM e Data Analytics Intern na Amazon. 
 
 Conheça um pouco mais sobre mim através do meu [portfólio](https://gabrielccr-555.github.io/gabrielccr-555/) 😄
 
